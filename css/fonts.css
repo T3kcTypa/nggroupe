@@ -1,31 +1,31 @@
 @font-face {
-    font-family: 'CeraProLight', sans-serif;
-    font-weight: 300;
-    src: local('CeraProLight')
-            url("../fonts/CeraProLight.woff2")
-            url("../fonts/CeraProLight.woff")
-}
+    font-family: "Cera Pro";
+    src: local("Cera Pro Regular"),
+      url("../fonts/Cera\ Pro\ Regular.woff") format("woff2"),
+      url("../fonts/Cera\ Pro\ Regular.woff") format("woff");
+    font-weight: normal;
+  }
 
-@font-face {
-    font-family: 'CeraProRegular', sans-serif;
-    font-weight: 400;
-    src: local('CeraProRegular')
-            url("../fonts/CeraProRegular.woff2")
-            url("../fonts/CeraProRegular.woff")
-}
+  @font-face {
+    font-family: "Cera Pro";
+    src: local("Cera Pro Medium"),
+      url("../fonts/Cera\ Pro\ Medium.woff2") format("woff2"),
+      url("../fonts/Cera\ Pro\ Medium.woff") format("woff");
+    font-weight: normal;
+  }
 
-@font-face {
-    font-family: 'CeraProMedium', sans-serif;
-    font-weight: 500;
-    src: local('CeraProMedium')
-            url("../fonts/CeraProMedium.woff2")
-            url("../fonts/CeraProMedium.woff")
-}
+  @font-face {
+    font-family: "Cera Pro";
+    src: local("Cera Pro Light"),
+      url("../fonts/Cera\ Pro\ Light.woff2") format("woff2"),
+      url("../fonts/Cera\ Pro\ Light.woff") format("woff");
+    font-weight: normal;
+  }
 
-@font-face {
-    font-family: 'CeraProBold', sans-serif;
-    font-weight: 700;
-    src: local('CeraPro')
-            url("../fonts/CeraProBold.woff2")
-            url("../fonts/CeraProBold.woff")
-}
+  @font-face {
+    font-family: "Cera Pro";
+    src: local("Cera Pro Bold"),
+      url("../fonts/Cera\ Pro\ Bold.woff2") format("woff2"),
+      url("../fonts/Cera\ Pro\ Bold.woff") format("woff");
+    font-weight: normal;
+  }

@@ -19,7 +19,7 @@ a {
 .wrapper {
     overflow: hidden;
 }
-
+/* header navigation */
 header {
     background-image: url("../photo/slide1.jpg");
     width: 100vw;
@@ -114,4 +114,37 @@ header {
     align-items: center;
 }
 
+/* header navigation ended */
 
+/* header content */
+
+.header__content {
+    width: 57.5rem;
+    height: 41.25rem;
+    padding-left: 16.25rem;
+}
+
+.header__title {
+    padding: 6.38rem 0rem 1.5rem 0rem;
+}
+
+.header-title {
+    width: 57.5rem;
+    height: 10.5rem;
+
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 120%;
+    color: #fff;
+}
+
+.header__text {
+    padding: 0rem 0rem 2.5rem 0rem;
+    width: 57.5rem;
+    height: 6.5rem;
+
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #fff;
+}

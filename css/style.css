@@ -2,15 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    font-family: 'Cera Pro';
-    font-weight: 400;
-    font-size: 1.12rem;
-    line-height: 144%;
-    color: #fff;
-}
-
 a {
     text-decoration: none;
     color: #fff;
@@ -81,6 +72,17 @@ header {
     align-items: center;
 }
 
+.menu__link-one,
+.menu__link-two,
+.menu__link-three,
+.menu__link-four {
+    font-family: "Cera Pro Regular";
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #fff;
+}
+
 .header__contact {
     width: 29.06rem;
     height: 2rem;
@@ -94,6 +96,7 @@ header {
     width: 15.19rem;
     height: 2rem;
 
+    font-family: "Cera Pro Medium";
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 133%;
@@ -108,6 +111,12 @@ header {
     width: 11.38rem;
     height: 1.62rem;
 
+    font-family: "Cera Pro Regular";
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #fff;
+
     display: flex;
     gap: 12px;
     justify-content: flex-end;
@@ -119,7 +128,7 @@ header {
 /* header content */
 
 .header__content {
-    width: 57.5rem;
+    width: 73.55rem;
     height: 41.25rem;
     padding-left: 16.25rem;
 }
@@ -132,6 +141,7 @@ header {
     width: 57.5rem;
     height: 10.5rem;
 
+    font-family: "Cera Pro Bold";
     font-weight: 700;
     font-size: 3.75rem;
     line-height: 120%;
@@ -143,8 +153,136 @@ header {
     width: 57.5rem;
     height: 6.5rem;
 
+    font-family: "Cera Pro Regular";
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 133%;
     color: #fff;
 }
+
+.header__info {
+    width: 57.5rem;
+    height: 8rem;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0rem 4rem 0rem;
+}
+
+.info__one,
+.info__two,
+.info__three {
+    width: 18.19rem;
+    height: 4rem;
+
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.info__one-text,
+.info__two-text,
+.info__three-text {
+    font-family: "Cera Pro Medium";
+    font-weight: 500;
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #fff;
+}
+
+.header__button {
+    width: 12.94rem;
+    height: 3.5rem; 
+
+    border-radius: 6.94rem;
+    border: 0;
+    padding: 1rem 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3262d;
+    cursor: pointer;
+
+    font-family: "Cera Pro Bold";
+    font-size: 0.88rem;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header__button-svg {
+    display: flex;
+    align-items: center;
+}
+
+
+/* header content ended */
+
+/* heade slider */
+
+.header__slide {
+    width: 103.75rem;
+    height: 8.5rem;
+    
+    padding: 2.5rem 0 2.5rem 16.25rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__slide-numbers {
+    width: 8.69rem;
+    height: 1.75rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slide-numbers:nth-child(1) {
+    font-family: "Cera Pro Bold";
+    color: #fff;
+    cursor: pointer;
+}
+
+.slide-numbers {
+    font-family: "Cera Pro Regular";
+    font-size: 1.25rem;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.slide-slider {
+    width: 59.81rem;
+    height: 0.12rem;
+    cursor: pointer;
+}
+
+.header__slide-buttons {
+    width: 9rem;
+    height: 3.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slide-left,
+.slide-right {
+    border: 1.50px solid #fff;
+    border-radius: 4.12rem;
+    padding: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* header slider ended */

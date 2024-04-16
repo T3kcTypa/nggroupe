@@ -1,31 +1,31 @@
 @font-face {
-    font-family: "Cera Pro";
+    font-family: "Cera Pro Regular";
     src: local("Cera Pro Regular"),
       url("../fonts/Cera\ Pro\ Regular.woff") format("woff2"),
       url("../fonts/Cera\ Pro\ Regular.woff") format("woff");
-    font-weight: normal;
+    font-weight: 400;
   }
 
   @font-face {
-    font-family: "Cera Pro";
+    font-family: "Cera Pro Medium";
     src: local("Cera Pro Medium"),
       url("../fonts/Cera\ Pro\ Medium.woff2") format("woff2"),
       url("../fonts/Cera\ Pro\ Medium.woff") format("woff");
-    font-weight: normal;
+    font-weight: 500;
   }
 
   @font-face {
-    font-family: "Cera Pro";
+    font-family: "Cera Pro Light";
     src: local("Cera Pro Light"),
       url("../fonts/Cera\ Pro\ Light.woff2") format("woff2"),
       url("../fonts/Cera\ Pro\ Light.woff") format("woff");
-    font-weight: normal;
+    font-weight: 300;
   }
 
   @font-face {
-    font-family: "Cera Pro";
+    font-family: "Cera Pro Bold";
     src: local("Cera Pro Bold"),
       url("../fonts/Cera\ Pro\ Bold.woff2") format("woff2"),
       url("../fonts/Cera\ Pro\ Bold.woff") format("woff");
-    font-weight: normal;
+    font-weight: 700;
   }

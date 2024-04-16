@@ -52,29 +52,30 @@ header {
     margin-right: 9.9rem;
 }
 
-.navi {
+.menu {
     width: 29.5rem;
     height: 1.62rem;
-    margin-right: 9.9rem;
 
+    margin-right: 9.9rem;
+}
+
+.menu__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navi-list:nth-child(1) {
+.menu__link-one {
     width: 7.19rem;
     height: 1.62rem;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navi-list:nth-child(2) {
+.menu__link-two {
     width: 4.94rem;
     height: 1.62rem;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -112,4 +113,5 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
+
 

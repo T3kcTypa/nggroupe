@@ -448,3 +448,140 @@ header {
 }
 
 /* product blocks ended */
+
+/* Service */
+
+.service {
+    width: 120rem;
+    height: 42.81rem;
+
+    padding-bottom: 6.25rem;
+}
+
+.service__item {
+    width: 90rem;
+    height: 36.56rem;
+
+    display: flex;
+    gap: 3.75rem;
+}
+
+.item-photo {
+    width: 41.25rem;
+    height: 36.56rem;
+}
+
+.item-content {
+    width: 42.5rem;
+    height: 36.38rem;
+}
+
+.item__subtitle {
+    width: 5.56rem;
+    height: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.item__square {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    background-color: #f3262d;
+}
+
+.item__subtitle {
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.item-title {
+    font-family: "Cera Pro Bold";
+    font-size: 3rem;
+    line-height: 117%;
+    color: #000;
+
+    margin-bottom: 16px;
+}
+
+.item__line {
+    border: 1.50px solid #f3262d;
+    width: 2.5rem;
+    height: 0rem;
+
+    margin-bottom: 24px;
+}
+
+.item-text {
+    font-family: "Cera Pro Regular";
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #333;
+}
+
+.item__list {
+    width: 42.5rem;
+    height: 16rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding: 1.5rem 0rem 2.5rem 0rem;
+}
+
+.list__item {
+    width: 42.5rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.list__item-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.list__item-text {
+    font-family: "Cera Pro Medium";
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #333;
+}
+
+.item__button { 
+    width: 12.94rem;
+    height: 3.5rem;
+
+    font-family: "Cera Pro Bold";
+    font-size: 0.88rem;
+    line-height: 143%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 0;
+    border-radius: 6.94rem;
+    padding: 1rem 2.5rem;
+    background-color: #f3262d;
+    cursor: pointer;
+}
+
+.item__button-svg {
+    display: flex;
+    align-items: center;
+}

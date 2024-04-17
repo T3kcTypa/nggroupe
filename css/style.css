@@ -220,7 +220,7 @@ header {
 
 /* header content ended */
 
-/* heade slider */
+/* header slider */
 
 .header__slide {
     width: 103.75rem;
@@ -286,3 +286,165 @@ header {
 }
 
 /* header slider ended */
+
+/* product content */
+
+.product {
+    width: 120rem;
+    height: 54.25rem;
+
+    margin-top: 12px;
+    padding: 6.25rem 0;
+    background: linear-gradient(180deg, #f4f2f2 0%, #fff 100%);
+}
+
+.product__content {
+    width: 87.5rem;
+    height: 8.5rem;
+
+    padding: 0rem 0rem 2.5rem 0rem;
+}
+
+.content__subtitle {
+    width: 7.75rem;
+    height: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0rem 0rem 1rem 0rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.subtitle__square {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    background-color: #f3262d;
+}
+
+.content__block {
+    width: 87.5rem;
+    height: 3.5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.content-title {
+    width: 51.69rem;
+    height: 3.5rem;
+    
+    font-family: "Cera Pro Bold";
+    font-size: 3rem;
+    line-height: 117%;
+    color: #000;
+}
+
+.content-text {
+    width: 35.81rem;
+    height: 3rem;
+
+    font-family: "Cera Pro Medium";
+    font-size: 1rem;
+    line-height: 150%;
+    color: #333;
+}
+
+.text__line {
+    width: 0.12rem;
+    height: 2.5rem;
+
+    background-color: #f3262d;
+    margin-right: 24px;
+}
+
+/* product content ended */
+
+/* product blocks */
+
+.product__block {
+    width: 87.5rem;
+    height: 32.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__one,
+.block__two,
+.block__three {
+    width: 27.5rem;
+    height: 32.5rem;
+}
+
+.block__one {
+    background-image: url('../photo/block1.jpg');
+}
+
+.block__two {
+    background-image: url('../photo/block2.jpg');
+}
+
+.block__three {
+    background-image: url('../photo/block3.jpg');
+}
+
+.one__info {
+    width: 27.5rem;
+    height: 19rem;
+
+    margin-top: 13.5rem;
+    padding: 4rem 2rem;
+    padding-bottom: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.0), rgba(0,0,0,0.65), rgba(0,0,0,0.99));
+}
+
+.info-title {
+    width: 23.5rem;
+    height: 4.75rem;
+
+    padding: 1.5rem 0rem 1rem 0rem;
+
+    font-weight: "Cera Pro Medium";
+    font-size: 1.75rem;
+    line-height: 129%;
+    color: #fff;
+}
+
+.info__line {
+    border: 1.50px solid #f3262d;
+    width: 2.5rem;
+    height: 0rem;
+}
+
+.info-text {
+    padding: 1rem 0rem 0rem 0rem;
+    width: 23.5rem;
+    height: 6.25rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #fff;
+}
+
+.info__square {
+    width: 4rem;
+    height: 4rem;
+
+    margin-top: -0.15rem;
+    margin-left: 21.5rem;
+    padding: 0.75rem;
+    background: #f3262d;
+
+    cursor: pointer;
+}
+
+/* product blocks ended */

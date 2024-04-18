@@ -609,13 +609,14 @@ header {
     width: 100vw;
     height: 39.5rem;
 
-    padding: 6.25rem 1.25rem;
+    padding: 6.25rem 0;
     margin-bottom: 6.25rem;
     background-image: url('../photo/bgone.png');
 }
 
 .work__pedding {
-    /* padding: 0 1.25rem; */
+    margin-right: -1.25rem;
+    margin-left: 1.25rem;
 }
 
 .work__subtitle {
@@ -672,7 +673,6 @@ header {
     height: 18.5rem;
 
     border-radius: 0.5rem;
-    /* padding: 2.5rem 5.65rem; */
     background-color: #fff;
 }
 

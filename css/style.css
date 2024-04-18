@@ -227,8 +227,8 @@ header {
     width: 100vw;
     height: 8.5rem;
     
-    margin: 0 20px;
-    padding: 2.5rem 0 2.5rem 0;
+    
+    padding: 2.5rem 1.25rem 2.5rem 1.25rem;
 
     display: flex;
     gap: 5rem;
@@ -301,7 +301,7 @@ header {
 }
 
 .product__content {
-    width: 87.5rem;
+    max-width: 90rem;
     height: 8.5rem;
 
     padding: 0rem 1.25rem 2.5rem 1.25rem;
@@ -332,15 +332,16 @@ header {
 }
 
 .content__block {
-    width: 87.5rem;
     height: 3.5rem;
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 
 .content-title {
-    width: 51.69rem;
+    width: 41.69rem;
     height: 3.5rem;
     
     font-family: "Cera Pro Bold";
@@ -349,10 +350,16 @@ header {
     color: #000;
 }
 
-.content-text {
+.line__text {
     width: 35.81rem;
     height: 3rem;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-text {
     font-family: "Cera Pro Medium";
     font-size: 1rem;
     line-height: 150%;
@@ -456,10 +463,11 @@ header {
 /* Service */
 
 .service {
-    width: 120rem;
+    width: 100vw;
     height: 42.81rem;
 
     padding-bottom: 6.25rem;
+    margin: 0 20px;
 }
 
 .service__item {
@@ -467,7 +475,7 @@ header {
     height: 36.56rem;
 
     display: flex;
-    gap: 3.75rem;
+    justify-content: space-between;
 }
 
 .item-photo {
@@ -475,7 +483,7 @@ header {
     height: 36.56rem;
 }
 
-.item-content {
+.item__content {
     width: 42.5rem;
     height: 36.38rem;
 }
@@ -520,11 +528,14 @@ header {
     border: 1.50px solid #f3262d;
     width: 2.5rem;
     height: 0rem;
-
-    margin-bottom: 24px;
 }
 
 .item-text {
+    width: 42.5rem;
+    height: 6.38rem;
+
+    padding: 1.5rem 0rem 0rem 0rem;
+
     font-family: "Cera Pro Regular";
     font-size: 1.12rem;
     line-height: 144%;
@@ -588,4 +599,385 @@ header {
 .item__button-svg {
     display: flex;
     align-items: center;
+}
+
+/* Service ended */
+
+/* Work */
+
+.work {
+    width: 100vw;
+    height: 39.5rem;
+
+    padding: 6.25rem 1.25rem;
+    margin-bottom: 6.25rem;
+    background-image: url('../photo/bgone.png');
+}
+
+.work__pedding {
+    /* padding: 0 1.25rem; */
+}
+
+.work__subtitle {
+    width: 14.31rem;
+    height: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.work__square {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    background-color: #f3262d;
+}
+
+.work-subtitle {
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.work-title {
+    height: 6rem;
+
+    padding: 0rem 0rem 2.5rem 0rem;
+
+    font-family: "Cera Pro Bold";
+    font-size: 3rem;
+    line-height: 117%;
+    color: #000;
+}
+
+.work__block {
+    height: 18.5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.work__block-one,
+.work__block-two,
+.work__block-three,
+.work__block-four,
+.work__block-five {
+    width: 16.31rem;
+    height: 18.5rem;
+
+    border-radius: 0.5rem;
+    /* padding: 2.5rem 5.65rem; */
+    background-color: #fff;
+}
+
+.block__work-svg {
+    width: 5rem;
+    height: 5rem;
+
+    margin: 2.5rem 5.65rem;
+    margin-bottom: 0;
+}
+
+.work__block-content {
+    width: 13.31rem;
+    height: 7rem;
+
+    margin: 1.5rem 1.5rem 2.5rem 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work__block-title {
+    font-family: "Cera Pro Medium";
+    font-size: 1.5rem;
+    line-height: 133%;
+    text-align: center;
+    color: #000;
+}
+
+.work__block-line {
+    border: 1.50px solid #f3262d;
+    width: 2.5rem;
+    height: 0rem;
+}
+
+.work__block-text {
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: center;
+    color: #333;
+}
+
+/* Work ended */
+
+/* company  */
+
+.company {
+    width: 100vw;
+    height: 56.5rem;
+    background-image: url('../photo/bgtwo.png');
+
+    padding: 6.25rem 20px;
+}
+
+.company__block {
+    height: 30.75rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 3.75rem;
+}
+
+.company__content {
+    width: 39rem;
+    height: 30.75rem;
+}
+
+.company__subtitle {
+    width: 9rem;
+    height: 2.5rem;
+
+    padding: 0rem 0rem 1rem 0rem;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.company__square {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    background-color: #f3262d;
+}
+
+.company-subtitle {
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.company-title {
+    width: 39rem;
+    height: 8.5rem;
+
+    padding: 0rem 0rem 1.5rem 0rem;
+    
+    font-family: "Cera Pro Bold";
+    font-size: 3rem;
+    line-height: 117%;
+    color: #000;;
+}
+
+.company-text {
+    width: 39rem;
+    height: 16.25rem;
+
+    padding: 0rem 0rem 2.5rem 0rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #333;
+}
+
+.company-photo {
+    width: 42.5rem;
+    height: 30.75rem;
+}
+
+.company__group {
+    height: 9.5rem;
+
+    border-left: 3px solid #f3262d;
+    border-radius: 0.5rem;
+    padding: 1rem 3.75rem;
+    
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+}
+
+.group-title {
+    font-family: "Cera Pro Medium";
+    font-size: 1.75rem;
+    line-height: 129%;
+    color: #000;
+}
+
+.group__icon {
+    width: 62.25rem;
+    height: 7.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group__line {
+    border: 1px solid #e6e6e6;
+    width: 3.75rem;
+    height: 0rem;
+
+    transform: rotate(-90deg);
+}
+
+.icon_group {
+    width: 18.75rem;
+    height: 7.5rem;
+
+    padding: 2.5rem 3.25rem;
+}
+
+.icon-ng,
+.icon-beton,
+.icon-newlime {
+    width: 9.19rem;
+    height: 4.5rem;
+}
+
+/* company block ended */
+
+/* footer */
+
+footer {
+    width: 100vw;
+    height: 36.5rem;
+
+    background-image: url('../photo/bgfooter.png');
+}
+
+.footer__conteiner {
+    height: 26.50rem;
+
+    padding: 6.25rem 1.25rem 2.5rem 1.25rem;
+
+    display: flex;  
+}
+
+.footer__block-one {
+    width: 42.5rem;
+    height: 17.75rem;
+}
+
+.footer__block-title {
+    width: 15.5rem;
+    height: 3.25rem;
+
+    padding: 0rem 0rem 1rem 0rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1.88rem;
+    line-height: 120%;
+    color: #fff;
+}
+
+.footer__line  {
+    width: 2.5rem;
+    height: 0rem;
+
+    border: 1.50px solid #f3262d;
+}
+
+.footer__block-text {
+    width: 18.06rem;
+    height: 5.5rem;
+
+    padding: 1.5rem 0rem 1rem 0rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    color: #fff;
+}
+
+.footer__list-one {
+    width: 14.94rem;
+    height: 7rem;
+
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.footer__item {
+    width: 14.94rem;
+    height: 2rem;
+
+    font-family: "Cera Pro Light";
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #fff;
+}
+
+.footer__email {
+    width: 14.38rem;
+    height: 2rem;
+
+    font-family: "Cera Pro Light";
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #fff;
+}
+
+.footer__list-two {
+    width: 13.25rem;
+    height: 14rem;
+
+   padding: 1.5rem 0rem 1rem 0rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.footer__item-two {
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    color: #fff;
+}
+
+.footer__block-subtitle {
+    width: 16.94rem;
+    height: 3.75rem;
+
+    padding: 0rem 0rem 1.5rem 0rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1.88rem;
+    line-height: 120%;
+    color: #fff;
+}
+
+.footer__conteiner-last {
+    height: 3.75rem;
+
+    margin: 0 1.25rem 0 1.25rem;
+    padding: 2.5rem 0rem 0rem 0rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ooo,
+.footer-politic {
+    font-family: "Cera Pro Regular";
+    font-size: 0.88rem;
+    line-height: 143%;
+    color: #999;
 }

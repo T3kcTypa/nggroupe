@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cera Pro Regular";
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* header */
+
+header {
+    width: 100vw;
+    height: 6.5rem;
+
+    padding: 1rem 0;
+
+    box-shadow: 0 8px 16px 0 rgba(50, 50, 71, 0.06), 0 8px 8px 0 rgba(50, 50, 71, 0.08);
+    background: #fff;
+}
+
+.conteiner {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.header__conteiner {
+    height: 4.5rem;
+
+    margin: 0 1.25rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 9.19rem;
+    height: 4.5rem;
+}
+
+header ul {
+    width: 29.5rem;
+    height: 1.62rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a {
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #000;
+}
+
+.list__link-one {
+    width: 7.19rem;
+    height: 1.62rem;
+
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.list__link-two {
+    width: 4.94rem;
+    height: 1.62rem;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+header li span {
+    display: flex;
+    align-items: center;
+    margin-bottom: -0.15rem;
+}
+
+.header__contact {
+    width: 29.06rem;
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact__phone {
+    width: 15.19rem;
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.phone-call {
+    font-family: "Cera Pro Madium";
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #000;
+}
+
+.contact__email {
+    width: 11.38rem;
+    height: 1.62rem;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.email-send {
+    font-family: "Cera Pro Regular";
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #000;
+}
+
+/* header ended */
+
+/* link */
+
+.link {
+    width: 100vw;
+
+    padding: 1.5rem 0;
+}
+
+.link__conteiner {
+    max-width: 90rem;
+    height: 4.25rem;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link a {
+    font-size: 0.88rem;
+    line-height: 143%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #f3262d;
+}
+
+.link a:nth-child(5) {
+    font-size: 0.88rem;
+    line-height: 143%;
+    color: #666;
+    text-decoration: none;
+}
+
+.link__dot {
+    width: 0.25rem;
+    height: 0.25rem;
+
+    background: #999;
+}
+
+/* link ended */
+
+/* company */
+
+.company__conteiner {
+    height: 35.25rem;
+    padding: 0 1.25rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 6.25rem;
+}
+
+.content__content {
+    width: 45rem;
+    height: 35.25rem;
+}
+
+.company-title {
+    width: 45rem;
+    height: 6rem;
+
+    margin-top: -1.1rem;
+    padding: 0rem 0rem 1.5rem 0rem;
+
+    font-family: "Cera Pro Bold";
+    font-size: 3.75rem;
+    line-height: 120%;
+    color: #000;
+}
+
+.content__block {
+    width: 45rem;
+    height: 29.25rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-text {
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #333;
+}
+
+.gap,
+.gap2 {
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #333;
+}
+
+.content__list {
+    width: 45rem;
+    height: 14.38rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content__item {
+    width: 45rem;
+    height: 3.25rem;
+
+    display: flex;
+    gap: 1rem;
+}
+
+.item__svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+.item-text {
+    font-family: "Cera Pro Medium";
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #333;
+}
+
+.block__photo {
+    width: 35rem;
+    height: 35.25rem;
+
+    background-image: url('../photo/company2.png');
+}
+
+/* company groupe */
+
+.company__group {
+    height: 9.5rem;
+    margin: 0 1.25rem;
+
+    border-left: 3px solid #f3262d;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-radius: 0.5rem;
+    padding: 1rem 3.75rem;
+    
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+}
+
+.group-title {
+    font-family: "Cera Pro Medium";
+    font-size: 1.75rem;
+    line-height: 129%;
+    color: #000;
+}
+
+.group__icon {
+    width: 62.25rem;
+    height: 7.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group__line {
+    border: 1px solid #e6e6e6;
+    width: 3.75rem;
+    height: 0rem;
+
+    transform: rotate(-90deg);
+}
+
+.icon_group {
+    width: 18.75rem;
+    height: 7.5rem;
+
+    padding: 2.5rem 3.25rem;
+}
+
+.icon-ng,
+.icon-beton,
+.icon-newlime {
+    width: 9.19rem;
+    height: 4.5rem;
+}
+
+/* company block ended */

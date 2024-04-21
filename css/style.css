@@ -873,6 +873,15 @@ footer {
 .footer__block-one {
     width: 42.5rem;
     height: 17.75rem;
+
+    margin-right: 2.5rem;
+}
+
+.footer__block-two {
+    width: 20rem;
+    height: 17.25rem;
+
+    margin-right: 4.4rem;
 }
 
 .footer__block-title {

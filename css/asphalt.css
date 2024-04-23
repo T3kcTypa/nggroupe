@@ -140,7 +140,11 @@ header li span {
 .link__conteiner {
     max-width: 90rem;
     height: 4.25rem;
+<<<<<<< HEAD
     /* margin: 0 auto; */
+=======
+    margin: 0 auto;
+>>>>>>> 7a4809587990e887940ac431186a65ac73a33bff
     padding: 0 1.25rem;
 
     display: flex;
@@ -153,13 +157,21 @@ header li span {
     line-height: 143%;
     text-decoration: underline;
     text-decoration-skip-ink: none;
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #f3262d;
+>>>>>>> 7a4809587990e887940ac431186a65ac73a33bff
 }
 
 .link a:nth-child(5) {
     font-size: 0.88rem;
     line-height: 143%;
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #666;
+>>>>>>> 7a4809587990e887940ac431186a65ac73a33bff
     text-decoration: none;
 }
 
@@ -167,7 +179,11 @@ header li span {
     width: 0.25rem;
     height: 0.25rem;
 
+<<<<<<< HEAD
     background: #fff;
+=======
+    background: #999;
+>>>>>>> 7a4809587990e887940ac431186a65ac73a33bff
 }
 
 /* link ended */
@@ -208,8 +224,11 @@ header li span {
 
 /* header ended */
 
+<<<<<<< HEAD
 /* section */
 
+=======
+>>>>>>> 7a4809587990e887940ac431186a65ac73a33bff
 section {
     width: 100vw;
     height: 46.88rem;
@@ -220,8 +239,11 @@ section {
 .section__flex {
     display: flex;
     gap: 5rem;
+<<<<<<< HEAD
 
     padding: 0 1.25rem;
+=======
+>>>>>>> 7a4809587990e887940ac431186a65ac73a33bff
 }
 
 .one  {
@@ -275,6 +297,7 @@ section p {
 
     background-image: url('../photo/asphalt.png');
 }
+<<<<<<< HEAD
 
 /* section ended */
 
@@ -815,3 +838,5 @@ footer {
 }
 
 /* footer ended */
+=======
+>>>>>>> 7a4809587990e887940ac431186a65ac73a33bff

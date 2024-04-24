@@ -183,19 +183,19 @@ header li span {
     margin-top: 1.25rem;
     height: 25rem;
 
-    background-image: url('../photo/asphaltbg.png');
+    background-image: url('../photo/betonbg.png');
 }
 
 .content__block {
     width: 59.56rem;
-    height: 12.5rem;
+    height: 12rem;
     margin: 0 1.25rem;
 
     padding: 2.5rem 0rem 0rem 0rem;
 }
 
 .content-title {
-    width: 90rem;
+    width: 87.5rem;
     height: 6rem;
 
     padding: 0rem 0rem 1.5rem 0rem;
@@ -214,12 +214,11 @@ header li span {
 
 /* header ended */
 
-
 /* section */
 
 section {
     width: 100vw;
-    height: 46.88rem;
+    height: 48.88rem;
 
     padding: 6.25rem 1.25rem;
 }
@@ -234,7 +233,7 @@ section {
 
 .one  {
     width: 45rem;
-    height: 34.12rem;
+    height: 35.88rem;
 
     display: flex;
     flex-direction: column;
@@ -249,7 +248,7 @@ section p {
 
 .content__list {
     width: 45rem;
-    height: 14.38rem;
+    height: 17.62rem;
 
     display: flex;
     flex-direction: column;
@@ -259,7 +258,7 @@ section p {
 
 .content__item {
     width: 45rem;
-    height: 3.25rem;
+    height: 4.48rem;
 
     display: flex;
     gap: 1rem;
@@ -270,7 +269,7 @@ section p {
     height: 3rem;
 }
 
-.item-text {
+.content-text {
     font-family: "Cera Pro Medium";
     font-size: 1.12rem;
     line-height: 144%;
@@ -279,9 +278,9 @@ section p {
 
 .two {
     width: 37.5rem;
-    height: 34.38rem;
+    height: 35.88rem;
 
-    background-image: url('../photo/asphalt.png');
+    background-image: url('../photo/sectionBeton.png');
 }
 
 /* section ended */
@@ -290,7 +289,7 @@ section p {
 
 main {
     width: 100vw;
-    height: 75rem;
+    height: 135rem;
 
     padding: 6.25rem 0;
     background-color: #f5f5f5;
@@ -336,7 +335,7 @@ main h1 {
 
 main ul {
     width: 87.5rem;
-    height: 44rem;
+    height: 104rem;
 
     border-radius: 0.5rem;
 }
@@ -359,6 +358,17 @@ main li:nth-child(1) {
     color: #fff;
 }
 
+main li:nth-child(2),
+main li:nth-child(10),
+main li:nth-child(18) {
+    font-family: "Cera Pro Medium";
+    font-size: 1.25rem;
+    line-height: 140%;
+    color: #333;
+
+    background-color: #e6e6e6;
+}
+
 .item__conteiner {
     width: 84.5rem;
     height: 4rem;
@@ -368,23 +378,41 @@ main li:nth-child(1) {
     gap: 1.88rem;
 }
 
+.text__conteiner {
+    padding: 1rem 29.59rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-text {
+    width: 25.3rem;
+    height: 1.75rem;
+
+    font-family: "Cera Pro Medium";
+    font-size: 1.25rem;
+    line-height: 140%;
+    color: #333;
+}
+
 main p:nth-child(1) {
-    width: 40.75rem;
+    width: 29.5rem;
     height: 4rem;
 }
 
 main p:nth-child(2) {
-    width: 17.5rem;
+    width: 16.25rem;
     height: 4rem;
 }
 
 main p:nth-child(3) {
-    width: 10rem;
+    width: 16.25rem;
     height: 4rem;
 }
 
 main p:nth-child(4) {
-    width: 10.62rem;
+    width: 16.88rem;
     height: 1.5rem;
 
     display: flex;
@@ -434,7 +462,7 @@ main p:nth-child(3) {
 }
 
 .delivery__block {
-    width: 87.5rem;
+    max-width: 87.5rem;
     height: 34.38rem;
 
     padding: 0 1.25rem;
@@ -446,7 +474,7 @@ main p:nth-child(3) {
     width: 41.25rem;
     height: 34.38rem;
 
-    background-image: url('../photo/deliveryOneBg.png');
+    background-image: url('../photo/deliveryBeton.png');
 }
 
 .delivery__content {
@@ -481,7 +509,7 @@ main p:nth-child(3) {
 
 .delivery__text {
     width: 42.5rem;
-    height: 10.38rem;
+    height: 6.38rem;
 }
 
 .delivery-title {
@@ -540,7 +568,6 @@ main p:nth-child(3) {
     line-height: 144%;
     color: #333;
 }
-
 
 /* delivery ended */
 

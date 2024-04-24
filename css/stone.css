@@ -183,7 +183,7 @@ header li span {
     margin-top: 1.25rem;
     height: 25rem;
 
-    background-image: url('../photo/asphaltbg.png');
+    background-image: url('../photo/stonebg.png');
 }
 
 .content__block {
@@ -214,12 +214,11 @@ header li span {
 
 /* header ended */
 
-
 /* section */
 
 section {
     width: 100vw;
-    height: 46.88rem;
+    height: 45rem;
 
     padding: 6.25rem 1.25rem;
 }
@@ -234,7 +233,7 @@ section {
 
 .one  {
     width: 45rem;
-    height: 34.12rem;
+    height: 32.5 rem;
 
     display: flex;
     flex-direction: column;
@@ -279,9 +278,9 @@ section p {
 
 .two {
     width: 37.5rem;
-    height: 34.38rem;
+    height: 31.25rem;
 
-    background-image: url('../photo/asphalt.png');
+    background-image: url('../photo/stone.png');
 }
 
 /* section ended */
@@ -290,7 +289,7 @@ section p {
 
 main {
     width: 100vw;
-    height: 75rem;
+    height: 59rem;
 
     padding: 6.25rem 0;
     background-color: #f5f5f5;
@@ -336,10 +335,9 @@ main h1 {
 
 main ul {
     width: 87.5rem;
-    height: 44rem;
-
-    border-radius: 0.5rem;
+    height: 28rem;
 }
+
 
 main li {
     width: 87.5rem;
@@ -446,7 +444,7 @@ main p:nth-child(3) {
     width: 41.25rem;
     height: 34.38rem;
 
-    background-image: url('../photo/deliveryOneBg.png');
+    background-image: url('../photo/stoneOne.png');
 }
 
 .delivery__content {

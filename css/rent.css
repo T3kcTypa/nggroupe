@@ -267,3 +267,130 @@ section p {
 }
 
 /* section ended */
+
+
+/* Catalog */
+
+.catalog {
+    width: 100vw;
+    height: 201.5rem;
+    padding: 6.25rem 16.25rem;
+    background: #f4f2f2;
+}
+
+.subtitle {
+    width: 6rem;
+    height: 2.5rem;
+
+    padding: 0rem 0rem 1rem 0rem;
+
+    display: flex;
+}
+
+.catalog__square {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    background: #f3262d;
+}
+
+.catalog-text {
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.catalog-title {
+    max-width: 87.5rem;
+    height: 6rem;
+
+    padding: 0rem 0rem 2.5rem 0rem;
+
+    font-family: "Cera Pro Bold";
+    font-size: 3rem;
+    line-height: 117%;
+    color: #000;
+}
+
+.catalog__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1.5rem;
+}
+
+.catalog__cars {
+    border: 1px solid #f0f0f0;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.red__corner {
+    width: 3.25rem;
+    height: 2.25rem;
+
+    padding: 0.5rem 0.75rem;
+    background: #f3262d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+    border-top-right-radius: 0.5rem;
+    position: absolute;
+    z-index: 1;
+    margin-left: 17.5rem;
+}
+
+.corner-text {
+    font-family: "Cera Pro Regular";
+    font-size: 0.88rem;
+    line-height: 143%;
+    color: #fff;
+
+    display: flex;
+}
+
+.cars__photo {
+    position: relative;
+    width: 20.75rem;
+    height: 13.12rem;
+}
+
+.cars__two {
+    width: 20.75rem;
+    height: 10.75rem;
+
+    padding: 1.5rem 2rem;
+}
+
+.cars-title {
+    width: 16.75rem;
+    height: 4.5rem;
+
+    padding: 0rem 0rem 1rem 0rem;
+
+    font-family: "Cera Pro Bold";
+    font-size: 1.25rem;
+    line-height: 140%;
+    color: #333;
+}
+
+.cars__line {
+    width: 2.5rem;
+    height: 0rem;
+
+    border: 1.50px solid #f3262d;
+
+}
+
+.cars-price {
+    width: 6.19rem;
+    height: 1.5rem;
+
+    padding-top: 1.75rem;
+}

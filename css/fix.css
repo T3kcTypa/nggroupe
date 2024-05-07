@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Cera Pro Regular";
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+/* header */
+
+header {
+    width: 100vw;
+    height: 31.5rem;
+
+    padding: 1rem 0;
+
+    background: #fff;
+}
+
+.conteiner {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.header__conteiner {
+    height: 4.5rem;
+
+    margin: 0 1.25rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 9.19rem;
+    height: 4.5rem;
+}
+
+header ul {
+    width: 29.5rem;
+    height: 1.62rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a {
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #000;
+}
+
+.list__link-one {
+    width: 7.19rem;
+    height: 1.62rem;
+
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.list__link-two {
+    width: 4.94rem;
+    height: 1.62rem;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+header li span {
+    display: flex;
+    align-items: center;
+    margin-bottom: -0.15rem;
+}
+
+.header__contact {
+    width: 29.06rem;
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact__phone {
+    width: 15.19rem;
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.phone-call {
+    font-family: "Cera Pro Madium";
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #000;
+}
+
+.contact__email {
+    width: 11.38rem;
+    height: 1.62rem;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+
+.email-send {
+    font-family: "Cera Pro Regular";
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #000;
+}
+
+/* link */
+
+.link {
+    width: 100vw;
+
+    padding: 1.5rem 0;
+}
+
+.link__conteiner {
+    max-width: 90rem;
+    height: 4.25rem;
+
+    /* margin: 0 auto; */
+
+    padding: 0 1.25rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link a {
+    font-size: 0.88rem;
+    line-height: 143%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+
+    color: #fff;
+
+}
+
+.link a:nth-child(5) {
+    font-size: 0.88rem;
+    line-height: 143%;
+    color: #fff;
+
+    text-decoration: none;
+}
+
+.link__dot {
+    width: 0.25rem;
+    height: 0.25rem;
+
+    background: #fff;
+
+}
+
+/* link ended */
+
+.header__box {
+    width: 100vw;
+    margin-top: 1.25rem;
+    height: 25rem;
+
+    background-image: url('../photo/fixbg.png');
+}
+
+.content__block {
+    width: 59.56rem;
+    height: 12.5rem;
+    margin: 0 1.25rem;
+
+}
+
+.content-title {
+    width: 59.56rem;
+    height: 6rem;
+
+
+    font-family: "Cera Pro Bold";
+    font-size: 3.75rem;
+    line-height: 120%;
+    color: #fff;
+}
+
+.content-text {
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #fff;
+}
+
+/* header ended */
+
+section {
+    width: 100vw;
+    height: 44.12rem;
+
+    padding: 6.25rem 16.25rem;
+}
+
+.section__flex {
+    display: flex;
+}
+
+ul li {
+    list-style-type: square;
+    color: #f3262d;
+}
+
+ul li span {
+    color: #333;
+}

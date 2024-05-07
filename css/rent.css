@@ -273,7 +273,7 @@ section p {
 
 .catalog {
     width: 100vw;
-    height: 201.5rem;
+    height: 223.5rem;
     padding: 6.25rem 16.25rem;
     background: #f4f2f2;
 }
@@ -285,6 +285,9 @@ section p {
     padding: 0rem 0rem 1rem 0rem;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .catalog__square {
@@ -316,9 +319,12 @@ section p {
 }
 
 .catalog__grid {
+    width: 87.5rem;
+    height: 201.5rem;
+
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(4, 20.75rem);
+    grid-template-rows: repeat(8, 23.88rem);
     gap: 1.5rem;
 }
 
@@ -326,6 +332,11 @@ section p {
     border: 1px solid #f0f0f0;
     border-radius: 0.5rem;
     background-color: #fff;
+}
+
+.catalog__cars:nth-child(31),
+.catalog__cars:nth-child(32) {
+    display: none;
 }
 
 .red__corner {
@@ -394,3 +405,146 @@ section p {
 
     padding-top: 1.75rem;
 }
+
+/* Catalog ended */
+
+/* footer */
+
+footer {
+    width: 100vw;
+    height: 36.5rem;
+
+    background-image: url('../photo/bgfooter.png');
+}
+
+.footer__conteiner {
+    height: 26.50rem;
+
+    padding: 6.25rem 1.25rem 2.5rem 1.25rem;
+
+    display: flex;  
+}
+
+.footer__block-one {
+    width: 42.5rem;
+    height: 17.75rem;
+
+    margin-right: 2.5rem;
+}
+
+.footer__block-two {
+    width: 20rem;
+    height: 17.25rem;
+
+    margin-right: 4.4rem;
+}
+
+.footer__block-title {
+    width: 15.5rem;
+    height: 3.25rem;
+
+    padding: 0rem 0rem 1rem 0rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1.88rem;
+    line-height: 120%;
+    color: #fff;
+}
+
+.footer__line  {
+    width: 2.5rem;
+    height: 0rem;
+
+    border: 1.50px solid #f3262d;
+}
+
+.footer__block-text {
+    width: 18.06rem;
+    height: 5.5rem;
+
+    padding: 1.5rem 0rem 1rem 0rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    color: #fff;
+}
+
+.footer__list-one {
+    width: 14.94rem;
+    height: 7rem;
+
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+.footer__item {
+    width: 14.94rem;
+    height: 2rem;
+
+    font-family: "Cera Pro Light";
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #fff;
+}
+
+.footer__email {
+    width: 14.38rem;
+    height: 2rem;
+
+    font-family: "Cera Pro Light";
+    font-size: 1.5rem;
+    line-height: 133%;
+    color: #fff;
+}
+
+.footer__list-two {
+    width: 13.25rem;
+    height: 14rem;
+
+   padding: 1.5rem 0rem 1rem 0rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.footer__item-two {
+    font-family: "Cera Pro Regular";
+    font-size: 1rem;
+    line-height: 150%;
+    color: #fff;
+}
+
+.footer__block-subtitle {
+    width: 16.94rem;
+    height: 3.75rem;
+
+    padding: 0rem 0rem 1.5rem 0rem;
+
+    font-family: "Cera Pro Regular";
+    font-size: 1.88rem;
+    line-height: 120%;
+    color: #fff;
+}
+
+.footer__conteiner-last {
+    height: 3.75rem;
+
+    margin: 0 1.25rem 0 1.25rem;
+    padding: 2.5rem 0rem 0rem 0rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ooo,
+.footer-politic {
+    font-family: "Cera Pro Regular";
+    font-size: 0.88rem;
+    line-height: 143%;
+    color: #999;
+}
+
+/* footer ended */
+

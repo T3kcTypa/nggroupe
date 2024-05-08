@@ -46,7 +46,7 @@ header img {
     height: 4.5rem;
 }
 
-header ul {
+.header__list {
     width: 29.5rem;
     height: 1.62rem;
 
@@ -221,13 +221,69 @@ section {
 
 .section__flex {
     display: flex;
+    position: relative;
 }
 
-ul li {
+.section__content {
+    width: 45rem;
+    height: 28.12rem;
+
+    margin-right: 5rem;
+}
+
+.section__list {
+    width: 45rem;
+    height: 20rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    padding: 2rem 0;
+}
+
+.list__item {
     list-style-type: square;
     color: #f3262d;
 }
 
 ul li span {
+    font-family: "Cera Pro Regular";
+    font-size: 1.12rem;
+    line-height: 144%;
     color: #333;
 }
+
+.list__item:nth-child(1) {
+    width: 45rem;
+    height: 3.25rem;
+}
+
+.list__item:nth-child(2) {
+    width: 45rem;
+    height: 3.25rem;
+}
+
+.list__item:nth-child(3) {
+    width: 45rem;
+    height: 1.62rem;
+}
+
+.list__item:nth-child(4) {
+    width: 45rem;
+    height: 1.62rem;
+}
+
+.list__item:nth-child(5) {
+    width: 45rem;
+    height: 3.25rem;
+}
+
+.section-text {
+    font-family: "Cera Pro Regular";
+    font-size: 1.12rem;
+    line-height: 144%;
+    color: #333;
+}
+
+

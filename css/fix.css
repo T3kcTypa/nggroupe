@@ -544,6 +544,140 @@ ul li span {
 
 /* How ended */
 
+/* galary */
+
+.galary {
+    width: 100vw;
+    height: 42rem;
+
+    padding: 6.25rem 0;
+
+    background-image: url('../photo/background.png');
+}
+
+.galary__subtitle {
+    width: 12.19rem;
+    height: 2.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 0rem 0rem 1rem 1.25rem;
+}
+
+.galary__square {
+    width: 0.5rem;
+    height: 0.5rem;
+
+    background: #f3262d;
+}
+
+.galary-subtitle {
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.galary-title {
+    width: 87.5rem;
+    height: 6rem;
+
+    padding: 0rem 1.25rem 2.5rem 1.25rem;
+
+    font-family: "Cera Pro Bold";
+    font-size: 3rem;
+    line-height: 117%;
+    color: #000;
+}
+
+.galary__flex {
+    max-width: 99.5rem;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrow__right,
+.arrow__left {
+    width: 3.5rem;
+    height: 3.5rem;
+
+    border-radius: 4.12rem;
+    padding: 1rem;
+    margin: 0 1.25rem;
+
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.galary__photo {
+    width: 90rem;
+    height: 18.75rem;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photo__one,
+.photo__two,
+.photo__three {
+    width: 27.5rem;
+    height: 18.75rem;
+}
+
+.photo__one {
+    background-image: url('../photo/garalyOne.png');
+}
+
+.photo__two {
+    background-image: url('../photo/galaryTwo.png');
+}
+
+.photo__three {
+    background-image: url('../photo/galaryThree.png');
+}
+
+.galaxy__slider {
+    width: 87.5rem;
+    height: 2.25rem;
+
+    padding: 2rem 0rem 0rem 0rem;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.slider__one,
+.slider__two,
+.slider__three {
+    width: 1.5rem;
+    height: 0.25rem;
+
+    border-radius: 2.81rem;
+}
+
+.slider__one,
+.slider__three {
+    background: #d9d9d9;
+}
+
+.slider__two {
+    background: #f3262d;
+}
+
+/* galary ended */
+
 /* footer */
 
 footer {
